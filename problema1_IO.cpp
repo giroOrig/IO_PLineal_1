@@ -26,9 +26,8 @@ restriccion4= y ≥ 0;
 void introducirDatos(int *Dim,float Sist[][102])
 {
 	int A,B;
-	printf("\n\n\n Cantidad de productos a trabajar:");
+	printf("\n\n\n Cantidad de elementos a optimizar:");
 	scanf("%d",&*Dim);
-	printf("\n\n PASE A INTRODUCIR CADA COMPONENTE DEL SISTEMA (MAIZ|TRIGO):");
     printf("\n\n MATRIZ:\n");
     for(A=1;A<=*Dim;A++) for(B=1;B<=*Dim;B++){
         printf("\n Terminos(%d,%d):",A,B); scanf("%f",&Sist[A][B]);}
